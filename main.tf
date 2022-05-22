@@ -1,7 +1,7 @@
 #############################
 ##creating bucket for s3 backend
 #########################
-resource "aws_s3_bucket" "mybucket" {
+resource "aws_s3_bucket" "terraform_state" {
   bucket = "leru-iyun--bkt1"
 
   versioning {
