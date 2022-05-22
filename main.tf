@@ -1,7 +1,7 @@
 #############################
 ##creating bucket for s3 backend
 #########################
-resource "aws_s3_bucket" "leru-iyun--bkt1" {
+resource "aws_s3_bucket" "mybucket" {
   bucket = "leru-iyun--bkt1"
 
   versioning {
