@@ -1,9 +1,9 @@
 # terraform {
 #   backend "s3" {
-#     bucket         = "pbl-test-18"
+#     bucket         = "leru-iyun--bkt1"
 #     key            = "global/s3/terraform.tfstate"
 #     region         = "us-east-2"
-#     dynamodb_table = "terraform-locks"
+#     dynamodb_table = "leru_et-larymie"
 #     encrypt        = true
 #   }
 # }
@@ -13,7 +13,7 @@ terraform {
     organization = "corals-oe"
 
     workspaces {
-      name = "terraform-cloud-2"
+      name = "terraform-cloud-3"
     }
   }
 }
