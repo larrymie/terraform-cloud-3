@@ -1,7 +1,7 @@
 #############################
 ##creating bucket for s3 backend
 #########################
-aws_s3_bucket_versioning resource  {
+aws_s3_bucket_server_side_encryption_configuration resource {
   bucket = "leru-iyun--bkt1"
 
   versioning {
