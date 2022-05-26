@@ -8,12 +8,12 @@
 #   }
 # }
 
-terraform {
-  backend "remote" {
-    organization = "corals1-dev"
+# terraform {
+#   backend "remote" {
+#     organization = "corals1-dev"
 
-    workspaces {
-      name = "terraform-cloud-3"
-    }
-  }
-}
+#     workspaces {
+#       name = "terraform-cloud-3"
+#     }
+#   }
+# }
