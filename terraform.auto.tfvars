@@ -24,7 +24,7 @@ ami-nginx = "ami-0db1b772ea58706d4"
 
 ami-sonar = "ami-072ec57ed0fbb265e"
 
-keypair = "prj-17"
+keypair = "prj-19"
 
 master-password = "iarY1948"
 
