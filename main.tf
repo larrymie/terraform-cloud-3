@@ -2,7 +2,7 @@
 ##creating bucket for s3 backend
 #########################
 resource "aws_s3_bucket" "terraform_state" {
-  bucket = "leru-iyun--bkt2"
+  bucket = "leru-iyun--bkt122"
 
   versioning {
     enabled = true
@@ -18,8 +18,8 @@ resource "aws_s3_bucket" "terraform_state" {
   }
 }
 
-resource "aws_dynamodb_table" "leru_et----larymie" {
-  name         = "leru_et----larymie"
+resource "aws_dynamodb_table" "leru_et------larymie" {
+  name         = "leru_et------larymie"
   billing_mode = "PAY_PER_REQUEST"
   hash_key     = "LockID"
   attribute {
